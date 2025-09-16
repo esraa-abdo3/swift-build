@@ -1,6 +1,7 @@
 import { Button } from "./ui/button";
 import { Globe } from "lucide-react";
 import { useLanguage } from "./LanguageContext";
+import "../index.css"
 
 export function LanguageSwitcher() {
   const { language, setLanguage } = useLanguage();

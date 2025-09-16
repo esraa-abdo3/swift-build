@@ -3,6 +3,7 @@ import { Badge } from "./ui/badge";
 import { Building2, Users, Award, Clock } from "lucide-react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 import { useLanguage } from "./LanguageContext";
+import "../index.css"
 
 export function About() {
   const { t, isRTL } = useLanguage();

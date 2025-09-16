@@ -12,6 +12,7 @@ import {
   DialogHeader,
   DialogTitle,
 } from "./dialog";
+import "../../index.css"
 
 function Command({
   className,

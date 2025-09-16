@@ -1,4 +1,5 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
+import "../index.css"
 
 type Language = 'en' | 'ar';
 

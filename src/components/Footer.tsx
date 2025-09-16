@@ -1,6 +1,7 @@
 import { Separator } from "./ui/separator";
 import logoImage from '../assets/2257a324-1da0-480f-991a-e2dda006ffca.png';
 import { useLanguage } from "./LanguageContext";
+import "../index.css"
 
 export function Footer() {
   const { t, isRTL } = useLanguage();

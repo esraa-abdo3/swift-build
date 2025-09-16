@@ -11,6 +11,7 @@ import {
   ArrowRight
 } from "lucide-react";
 import { useLanguage } from "./LanguageContext";
+import "../index.css"
 
 export function Services() {
   const { t, isRTL } = useLanguage();

@@ -11,6 +11,7 @@ import {
   Send
 } from "lucide-react";
 import { useLanguage } from "./LanguageContext";
+import "../index.css"
 
 export function Contact() {
   const { t, isRTL } = useLanguage();

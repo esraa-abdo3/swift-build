@@ -9,6 +9,7 @@ import {
 } from "lucide-react";
 
 import { cn } from "./utils";
+import "../../index.css"
 
 function Select({
   ...props
